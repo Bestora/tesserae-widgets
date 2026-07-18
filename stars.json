@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T00:08:13Z",
+  "fetched_at": "2026-07-18T06:11:58Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -7,6 +7,7 @@
     "apple_album": 0,
     "auroras": 0,
     "bom_warnings": 0,
+    "caldav_todo": 0,
     "calendar_schedule": 0,
     "clock_extras": 0,
     "community_demo": 0,
