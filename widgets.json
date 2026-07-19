@@ -382,9 +382,9 @@
         "finance_stock"
       ],
       "release": {
-        "version": "0.1.0",
-        "tarball_url": "https://github.com/dmellok/tesserae-widget-finance/archive/refs/tags/v0.1.0.tar.gz",
-        "sha256": "be1c12cd414ca832ccb7d5e56735e9f53da5b62f2c1f154a96687433783058a1"
+        "version": "0.1.1",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-finance/archive/refs/tags/v0.1.1.tar.gz",
+        "sha256": "ac553e4d15177952cbb6f63ae2cc8ad5ac0ec876f44001c0731b3c7eeeeaac3a"
       },
       "source": "https://github.com/dmellok/tesserae-widget-finance"
     },
