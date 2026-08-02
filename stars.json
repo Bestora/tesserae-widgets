@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T03:41:01Z",
+  "fetched_at": "2026-08-02T03:42:30Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -19,6 +19,7 @@
     "fractal_tile": 0,
     "github": 0,
     "glances": 0,
+    "google_album": 0,
     "gradient": 0,
     "muted": 0,
     "news_hackaday": 0,
@@ -31,6 +32,7 @@
     "recipes": 0,
     "sky": 0,
     "spotify": 0,
+    "todoist": 0,
     "tonal": 0,
     "transport": 0,
     "transport_belgium": 1,
