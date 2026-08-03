@@ -1,10 +1,11 @@
 {
-  "fetched_at": "2026-08-03T00:05:16Z",
+  "fetched_at": "2026-08-03T15:08:16Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
     "air_traffic": 1,
     "apple_album": 0,
+    "apple_reminders": 0,
     "auroras": 0,
     "bom_warnings": 0,
     "caldav_todo": 0,
