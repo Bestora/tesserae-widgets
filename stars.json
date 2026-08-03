@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T11:21:54Z",
+  "fetched_at": "2026-08-03T00:05:16Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -19,6 +19,7 @@
     "fractal_tile": 0,
     "github": 0,
     "glances": 0,
+    "goodreads_shelf": 0,
     "google_album": 0,
     "gradient": 0,
     "muted": 0,
@@ -27,6 +28,7 @@
     "paperlesspaper_art": 0,
     "picture_immich": 0,
     "pigment": 0,
+    "pokedex": 0,
     "posthog_metric": 0,
     "public_holiday_countdown": 0,
     "recipes": 0,
