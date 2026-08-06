@@ -32,14 +32,30 @@ jobs:
       - name: Validate catalog
         run: |
           python <<'PY'
-          import hashlib, io, json, sys, tarfile
+          import hashlib, io, json, re, sys, tarfile
           from pathlib import Path
           import jsonschema, requests
 
           root = Path(".")
-          index = json.loads((root / "widgets.json").read_text())
+          raw_index = (root / "widgets.json").read_text(encoding="utf-8")
+          index = json.loads(raw_index)
           schema = json.loads((root / "schema" / "marketplace.schema.json").read_text())
           jsonschema.validate(index, schema)
+
+          # Non-ASCII characters stay literal in this file. A contributor whose
+          # tooling re-serialises the catalog with ensure_ascii=True rewrites
+          # em-dashes, ellipses and accented names across entries their PR never
+          # touched. The parsed values are identical either way, so nothing
+          # breaks and review can miss it, but it churns the diff and flips back
+          # on the next normal edit.
+          escaped = re.findall(r"\\u[0-9a-fA-F]{4}", raw_index)
+          if escaped:
+              print(
+                  f"widgets.json contains {len(escaped)} ASCII-escaped character(s), "
+                  f"first {escaped[0]}. Add your entry to the file rather than "
+                  "re-serialising it, or pass ensure_ascii=False if you script the edit."
+              )
+              sys.exit(1)
 
           def detect_layout(buf: bytes, primary_id: str) -> list[str]:
               """Mirror app/marketplace.py's _detect_layout: unwrap one

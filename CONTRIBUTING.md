@@ -28,7 +28,13 @@ no widget sandbox yet.
 5. Open a PR to **this** repo (`tesserae-widgets`):
    - Add a `screenshots/<id>/lg.png` (plus any other sizes you shot).
    - Add a new entry to `widgets.json` with your widget metadata
-     (see schema below).
+     (see schema below). *Add* to the file rather than re-serialising
+     it: writing it back out with `json.dump`'s default
+     `ensure_ascii=True` rewrites em-dashes, ellipses and accented
+     names in other people's entries as `\uXXXX`. The parsed values
+     don't change, so nothing breaks, but it churns entries your PR
+     never touched. CI rejects it; pass `ensure_ascii=False` if you
+     script the edit.
    - Fill out the PR template.
 6. Wait for review. I'll read your widget's source end-to-end, focused
    on:
