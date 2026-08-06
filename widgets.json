@@ -1336,6 +1336,32 @@
         "sha256": "5f30bf71ed6217516e9b073e6d411ecae7dd2df960282510a30e42ef09cda29f"
       },
       "source": "https://github.com/dmellok/tesserae-widget-reminders-fridge"
+    },
+    {
+      "id": "xkcd_comic",
+      "name": "XKCD Comic",
+      "description": "Latest, random, or a specific xkcd comic, with the hovertext printed as a visible caption instead of a mouseover-only tooltip.",
+      "icon": "ph-image-square",
+      "author": {
+        "name": "tlmcguire",
+        "github": "tlmcguire"
+      },
+      "tags": [
+        "media"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "screenshot_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "release": {
+        "version": "0.1.4",
+        "tarball_url": "https://github.com/tlmcguire/tesserae-widget-xkcd/archive/refs/tags/v0.1.4.tar.gz",
+        "sha256": "331cdb6fcfb25e86400e0b410b7887df22419ea4cbf35bfebd2d02f2368144b5"
+      },
+      "source": "https://github.com/tlmcguire/tesserae-widget-xkcd"
     }
   ]
 }
