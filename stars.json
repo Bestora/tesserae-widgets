@@ -1,9 +1,10 @@
 {
-  "fetched_at": "2026-08-09T11:37:07Z",
+  "fetched_at": "2026-08-09T13:07:28Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
     "air_traffic": 1,
+    "album_art": 0,
     "apple_album": 0,
     "apple_reminders": 0,
     "auroras": 0,
@@ -14,6 +15,7 @@
     "clock_extras": 0,
     "community_demo": 0,
     "devref": 1,
+    "emby_poster": 0,
     "f1": 0,
     "finance": 0,
     "football": 0,
@@ -25,7 +27,6 @@
     "gradient": 0,
     "muted": 0,
     "news_hackaday": 0,
-    "now_playing": 1,
     "octoprint": 0,
     "paperlesspaper_art": 0,
     "picture_immich": 0,
