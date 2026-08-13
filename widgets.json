@@ -268,9 +268,9 @@
         "calendar_schedule"
       ],
       "release": {
-        "version": "0.5.1",
-        "tarball_url": "https://github.com/dmellok/tesserae-widget-calendar-schedule/archive/refs/tags/v0.5.1.tar.gz",
-        "sha256": "531e0ca1ab3234044bcc6545b83e9ef45066509b919583aa0287269315611de0"
+        "version": "0.6.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-calendar-schedule/archive/refs/tags/v0.6.0.tar.gz",
+        "sha256": "62389d3b5f3eaa64ce6a7ad149bb1827a68897efc3c9159d863ab9878930a51a"
       },
       "source": "https://github.com/dmellok/tesserae-widget-calendar-schedule"
     },
