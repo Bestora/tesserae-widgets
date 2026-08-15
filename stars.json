@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T10:12:01Z",
+  "fetched_at": "2026-08-15T01:42:56Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -38,6 +38,7 @@
     "public_holiday_countdown": 0,
     "recipes": 0,
     "sky": 0,
+    "sky_tonight": 0,
     "spotify": 0,
     "todoist": 0,
     "tonal": 0,
@@ -48,6 +49,7 @@
     "unsplash": 0,
     "vivid": 0,
     "weather_extras": 0,
+    "wildlife_nearby": 0,
     "xkcd_comic": 0,
     "youtube_channel": 0
   }
