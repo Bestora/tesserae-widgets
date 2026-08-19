@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T03:05:24Z",
+  "fetched_at": "2026-08-19T13:01:19Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -36,7 +36,7 @@
     "picture_immich": 0,
     "pigment": 0,
     "pokedex": 0,
-    "poorly_drawn_lines": 0,
+    "poorly_drawn_lines": 1,
     "posthog_metric": 0,
     "public_holiday_countdown": 0,
     "recipes": 0,
