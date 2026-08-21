@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T13:01:19Z",
+  "fetched_at": "2026-08-21T01:49:36Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -40,6 +40,7 @@
     "posthog_metric": 0,
     "public_holiday_countdown": 0,
     "recipes": 0,
+    "room_status": 0,
     "sky": 0,
     "sky_tonight": 0,
     "spotify": 0,
