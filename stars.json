@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T16:47:05Z",
+  "fetched_at": "2026-08-25T18:50:02Z",
   "stars": {
     "afl": 0,
     "ai_brief": 0,
@@ -17,6 +17,7 @@
     "clock_extras": 0,
     "community_demo": 0,
     "devref": 1,
+    "emby_library_wall": 0,
     "emby_poster": 0,
     "evcc_energy": 2,
     "f1": 0,
