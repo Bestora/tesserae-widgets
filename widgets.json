@@ -297,9 +297,9 @@
         "calendar_schedule"
       ],
       "release": {
-        "version": "0.6.0",
-        "tarball_url": "https://github.com/dmellok/tesserae-widget-calendar-schedule/archive/refs/tags/v0.6.0.tar.gz",
-        "sha256": "62389d3b5f3eaa64ce6a7ad149bb1827a68897efc3c9159d863ab9878930a51a"
+        "version": "0.7.0",
+        "tarball_url": "https://github.com/dmellok/tesserae-widget-calendar-schedule/archive/refs/tags/v0.7.0.tar.gz",
+        "sha256": "de9ceacc396a776419de72d439529c16fd3e6fa6ea25b52d62d470a2ae4ba820"
       },
       "source": "https://github.com/dmellok/tesserae-widget-calendar-schedule"
     },
@@ -1683,10 +1683,14 @@
         "name": "Tony James Stark",
         "github": "tonyjamesstark"
       },
-      "tags": ["calendar"],
+      "tags": [
+        "calendar"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/tonyjamesstark/tesserae-widget-calendar-three-day-releases/archive/refs/tags/v0.1.0.tar.gz",
@@ -1703,10 +1707,15 @@
         "name": "Kayden D'Mello",
         "github": "dmellok"
       },
-      "tags": ["calendar", "utility"],
+      "tags": [
+        "calendar",
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 5,
       "release": {
         "version": "0.5.0",
@@ -1724,13 +1733,19 @@
         "name": "Charm",
         "github": "charmmmz"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 3,
-      "folders": ["health_summary"],
+      "folders": [
+        "health_summary"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/charmmmz/tesserae-widget-health-summary/archive/refs/tags/v0.1.0.tar.gz",
@@ -1747,11 +1762,15 @@
         "name": "Frederik Bäumer",
         "github": "fbaeumer"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 1,
       "release": {
         "version": "1.0.1",
@@ -1791,6 +1810,38 @@
       "source": "https://github.com/dmellok/tesserae-widget-ha-weather"
     },
     {
+      "id": "myanimelist",
+      "name": "MyAnimeList",
+      "description": "Agenda, month calendar, and recently aired list for a public MyAnimeList profile. Shared Core for username and optional Client ID; episode times from AniList.",
+      "icon": "ph-television-simple",
+      "author": {
+        "name": "Dennis Rehbehn",
+        "github": "Bestora"
+      },
+      "tags": [
+        "media",
+        "calendar"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": false,
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "mal_core",
+        "mal_schedule",
+        "mal_month",
+        "mal_releases"
+      ],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/Bestora/tesserae-widget-myanimelist/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "84a98bbb775bf203e87fa98af8c0d53891828736d6cec2f5494e66ced524dc85"
+      },
+      "source": "https://github.com/Bestora/tesserae-widget-myanimelist"
+    },
+    {
       "id": "trakt",
       "name": "Trakt",
       "description": "Agenda, month calendar, and recently aired list for a public Trakt profile. Shared Core needs a Client ID; creating a Trakt API app currently requires VIP.",
@@ -1799,12 +1850,22 @@
         "name": "Dennis Rehbehn",
         "github": "Bestora"
       },
-      "tags": ["media", "calendar"],
+      "tags": [
+        "media",
+        "calendar"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
-      "folders": ["trakt_core", "trakt_schedule", "trakt_month", "trakt_releases"],
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "trakt_core",
+        "trakt_schedule",
+        "trakt_month",
+        "trakt_releases"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/Bestora/tesserae-widget-trakt/archive/refs/tags/v0.1.0.tar.gz",
