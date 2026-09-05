@@ -1789,6 +1789,28 @@
         "sha256": "7eeddea9329598d7a70bab79575aa0a66f96deecba72f6a72dd41aa3c93a22e2"
       },
       "source": "https://github.com/dmellok/tesserae-widget-ha-weather"
+    },
+    {
+      "id": "myanimelist",
+      "name": "MyAnimeList",
+      "description": "Agenda, month calendar, and recently aired list for a public MyAnimeList profile. Shared Core for username and optional Client ID; episode times from AniList.",
+      "icon": "ph-television-simple",
+      "author": {
+        "name": "Dennis Rehbehn",
+        "github": "Bestora"
+      },
+      "tags": ["media", "calendar"],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": false,
+      "screenshot_sizes": ["lg"],
+      "folders": ["mal_core", "mal_schedule", "mal_month", "mal_releases"],
+      "release": {
+        "version": "0.1.0",
+        "tarball_url": "https://github.com/Bestora/tesserae-widget-myanimelist/archive/refs/tags/v0.1.0.tar.gz",
+        "sha256": "84a98bbb775bf203e87fa98af8c0d53891828736d6cec2f5494e66ced524dc85"
+      },
+      "source": "https://github.com/Bestora/tesserae-widget-myanimelist"
     }
   ]
 }
